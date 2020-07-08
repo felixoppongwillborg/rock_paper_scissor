@@ -1,8 +1,7 @@
-describe('two players can enter their name and start a game', () => {
-  it('players can enter their name', () => {
+describe('find 3 buttons on site', () => {
+  it('page dispalys 3 buttons', () => {
     cy.visit('/')
-    cy.get('input#playerOne').type('PlayerOne');
-    cy.get('input#playerTwo').type('PlayerTwo'); 
-    cy.get('button#startGame').click();
+    cy.get('button').click;
+ 
   }) 
 })
